@@ -32,7 +32,7 @@ public class LoginTest {
     @BeforeClass
     public void userSignUpWithValidData() {
         loginPageObject = new LoginPage(driver);
-        loginPageObject.userSignUp("+79772668540", "328064Rffnzz");
+        loginPageObject.userSignUp("+79772668540", "Bnd%12321");
 
         Assert.assertTrue(driver.getCurrentUrl().contains("https://twitter.com/home"));
     }
